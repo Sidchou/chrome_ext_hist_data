@@ -9,7 +9,7 @@
     }
   ],
   "background": {
-    "scripts": ["data.js","background.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
@@ -19,6 +19,5 @@
           "history",
           "webNavigation",
           "tabs"
-
         ]
 }
